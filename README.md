@@ -35,7 +35,7 @@ After implementing this approach, 7,927 papers were identified as relevant.
 
 ### Task #2: Method Classification of Relevant Papers
 
-To categorize each relevant paper by method type, a zero-shot classification approach was applied using a BART model. The model was fine-tuned to classify texts into specific labels—computer vision, text mining, both, or other—based on a calculated confidence score for each label.
+To categorize each relevant paper by method type, a zero-shot classification approach was applied using a BART model. The model was used to classify texts into specific labels—computer vision, text mining, both, or other—based on a calculated confidence score for each label.
 
 **Alternative Approaches Explored**:
 - Semantic similarity with keyword matching was tested but lacked scalability, as constructing exhaustive keyword lists for both domains proved challenging.
