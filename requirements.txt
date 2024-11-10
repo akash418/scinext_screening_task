@@ -1,4 +1,5 @@
-sentence-transformers scipy
+sentence-transformers
+scipy
 transformers
 numpy
 pandas
