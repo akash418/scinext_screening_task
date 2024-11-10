@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is a Natural Language Processing (NLP) solution for curating and analyzing research papers in the fields of virology and epidemiology. The aim is to streamline the process of finding, filtering, and categorizing relevant academic papers using deep learning techniques. Given a list of scientific papers, this solution identifies and labels papers based on specific criteria, reducing the need for manual keyword filtering and improving classification accuracy. The dataset contains a variety of publications, where missing abstracts were filled in using each paper's title to ensure data completeness.
+This project is a Natural Language Processing (NLP) solution for curating and analyzing research papers in the fields of virology and epidemiology. The aim is to streamline the process of finding, filtering, and categorizing relevant academic papers using deep learning techniques. Given a list of scientific papers, this solution identifies and labels papers based on specific criteria, reducing the need for manual keyword filtering and improving classification accuracy. The code can be run on Google colab: T4 GPU hardware.
 
 ## Purpose and Usage
 
@@ -13,6 +13,12 @@ The solution automates three key tasks:
 3. **Method Identification** – Identifying scientific methods mentioned in relevant papers' abstracts.
 
 This repository includes code for each task, with outputs available in the dataset as additional columns, including `Label` (the paper's method classification) and `Top_Methods` (scientific methods identified in each paper). Each section below outlines the methodology and reasoning behind the approach taken.
+
+## Contents of this Repo
+- filtered_papers.csv - CSV containing the filtered papers with the appropriate label and the identified scientific methods
+- scinext_screening.ipynb -  Notebook containing code
+- scinext_screening_report.pdf - Detailed report containing the apprach to the solution and some intresting findings.
+
 
 ## Solution Steps and Findings
 
